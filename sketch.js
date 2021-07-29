@@ -28,6 +28,7 @@ function heardWord(errors,results){
 function keyPressed(){
   if (key === " "){
     player.jump();
+   console.log("up");
   }
 }
 
